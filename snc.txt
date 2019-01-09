@@ -1,0 +1,3 @@
+SELECT specObjID,mjd,plate,tile,fiberID FROM SpecObj WHERE specObjID IS NULL
+SELECT mobile FROM emp WHERE id IS NULL
+SELECT mobile FROM emp WHERE id IS NOT NULL
